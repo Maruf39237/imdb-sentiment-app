@@ -1,0 +1,45 @@
+classical-nlp-streamlit-project/
+├── .vscode/
+└── nlp-project/
+    ├── .venv/
+    ├── Data/
+    │   ├── .gitkeep
+    │   ├── Cleaned IMDB Dataset.csv
+    │   └── IMDB Dataset.csv
+    ├── Model/
+    │   ├── models/
+    │   │   ├── .gitkeep
+    │   │   ├── cv_logistic_regression.joblib
+    │   │   ├── cv_multinomial_nb.joblib
+    │   │   ├── tfidf_logistic_regression.joblib
+    │   │   └── tfidf_multinomial_nb.joblib
+    │   ├── vectorizer/
+    │   │   ├── .gitkeep
+    │   │   ├── count_vectorizer.joblib
+    │   │   └── tfidf_vectorizer.joblib
+    │   └── model_metrics.json
+    ├── Notebook/
+    │   ├── .ipynb_checkpoints/
+    │   ├── EDA with PREPROCESSING.ipynb
+    │   └── Model_Run.ipynb
+    ├── Pages/
+    │   ├── __pycache__/
+    │   ├── EDA.py
+    │   ├── Home.py
+    │   └── Prediction.py
+    ├── Structure/
+    │   └── structure.txt
+    ├── tests/
+    │   └── hard_cases.py
+    ├── utils/
+    │   ├── __pycache__/
+    │   ├── __init__.py
+    │   └── text_preprocessing.py
+    ├── .gitignore
+    ├── .python-version
+    ├── LICENSE
+    ├── main.py
+    ├── pyproject.toml
+    ├── README.md
+    ├── requirements.txt
+    └── uv.lock
